@@ -1,0 +1,18 @@
+name: SimpleChatColors
+version: 1.0
+main: me.sman.simplechatcolors.Main
+api-version: 1.19
+
+commands:
+
+    color:
+
+          description: Add some color to your chat messages!
+          usage: /<command> <color> <message>
+          aliases: [scc]
+
+    colorlist:
+
+          description: Get a list of all available colors.
+          usage: /<command>
+          aliases: [scclist]
